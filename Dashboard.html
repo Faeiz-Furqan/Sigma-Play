@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>dashboard</title>
+</head>
+
+<body class="bg-gray-900">
+    <nav class="relative bg-gray-700 rounded-2xl flex flex-wrap justify-between mx-10 my-5 pl-2 pr-2 place-items-center">
+        <div class="font-mono text-3xl text-white text-center pl-2">Σ-Play</div>
+        <input type="checkbox" id="menu-toggle" class="hidden">
+        <label for="menu-toggle" class="menu-icon lg:hidden">
+            <svg class="w-6 h-6 text-white cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </label>
+        <ul class="menu hidden lg:flex justify-end px-20 place-items-center font-mono text-white text-center pl-2">
+              <li>
+                <a class="text-lg block rounded-sm bg-gray-700 px-8 py-3 font-medium cursor-pointer hover:text-xl"
+                    href="Dashboard.html">Home</a>
+            </li>
+            <li>
+                <a class="text-lg block rounded-sm bg-gray-700 px-8 py-3 font-medium cursor-pointer hover:text-xl"
+                    href="genere.html">Genre</a>
+            </li>
+            <li>
+              <select class="text-lg block rounded-sm bg-gray-700 px-8 py-3 font-medium cursor-pointer hover:text-xl">
+                <option value="">Country</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Australia">Australia</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Canada">Canada</option>
+                <option value="China">China</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="India">India</option>
+                <option value="Italy">Italy</option>
+                <option value="Japan">Japan</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Russia">Russia</option>
+                <option value="South Korea">South Korea</option>
+                <option value="Spain">Spain</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+              </select>
+              
+            </li>
+            <li>
+                <a class="text-lg block rounded-sm bg-gray-700 px-8 py-3 font-medium cursor-pointer hover:text-xl"
+                    href="Movies.html">Movies</a>
+            </li>
+            <li>
+                <a class="text-lg block rounded-sm bg-gray-700 px-8 py-3 font-medium cursor-pointer hover:text-xl"
+                    href="tv-shows.html">TV Shows</a>
+            </li>
+            <li>
+                <a class="text-lg block rounded-sm bg-gray-700 px-8 py-3 font-medium cursor-pointer hover:text-xl"
+                    href="imdb.html">Top-IMDB</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
+          <header class="text-center">
+            <h2 class="text-xl font-bold text-white sm:text-3xl">
+              Sigma Movies Collection
+            </h2>
+      
+            <p class="max-w-md mx-auto mt-4 text-gray-500">
+             
+              Discover a new breed of cinematic brilliance with Sigma Male Movies, where captivating narratives and unapologetic characters redefine the boundaries of conventional storytelling.   
+             
+          
+            </p>
+          </header>
+      
+          <ul class="grid gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-4">
+            <li>
+              <a href="#" class="block overflow-hidden group">
+                <img
+                  src="https://m.media-amazon.com/images/I/91vya3UmldL._AC_UF894,1000_QL80_.jpg"
+                  alt=""
+                  class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                />
+      
+                <div class="relative pt-3 bg-pink-600">
+                  <h3
+                    class="text-lg font-medium text-white group-hover:underline group-hover:underline-offset-4"
+                  >
+                    Drive
+                  </h3>
+      
+                  <p class="mt-2">
+                    <span class="sr-only"> Regular Price </span>
+      
+                    <span class="tracking-wider text-white"> 2011 </span>
+                  </p>
+                </div>
+              </a>
+            </li>
+      
+            <li>
+              <a href="#" class="block overflow-hidden group">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BN2U1YzdhYWMtZWUzMi00OWI1LWFkM2ItNWVjM2YxMGQ2MmNhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"alt=""
+                  class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                />
+      
+                <div class="relative pt-3 bg-yellow-400">
+                  <h3
+                    class="text-lg font-medium text-white group-hover:underline group-hover:underline-offset-4"
+                  >
+                    Night Crawler
+                  </h3>
+      
+                  <p class="mt-2">
+                    <span class="sr-only"> Regular Price </span>
+      
+                    <span class="tracking-wider text-white"> 2014 </span>
+                  </p>
+                </div>
+              </a>
+            </li>
+      
+            <li>
+              <a href="#" class="block overflow-hidden group">
+                <img
+                  src="https://i.pinimg.com/236x/b4/2e/26/b42e268311a55997b83704fe72c7bc27--american-psycho-horror-movies.jpg" alt=""
+                  class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                />
+      
+                <div class="relative pt-3 bg-red-600">
+                  <h3
+                    class="text-lg font-medium text-white group-hover:underline group-hover:underline-offset-4"
+                  >
+                    American Psycho
+                  </h3>
+      
+                  <p class="mt-2">
+                    <span class="sr-only"> Regular Price </span>
+      
+                    <span class="tracking-wider text-white"> 2000 </span>
+                  </p>
+                </div>
+              </a>
+            </li>
+      
+            <li>
+              <a href="#" class="block overflow-hidden group">
+                <img
+                  src="https://m.media-amazon.com/images/I/71NPmBOdq7L.jpg"
+                  alt=""
+                  class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                />
+      
+                <div class="relative pt-3 bg-orange-500">
+                  <h3
+                    class="text-lg text-white font-medium group-hover:underline group-hover:underline-offset-4"
+                  >
+                    Blade Runner
+                  </h3>
+      
+                  <p class="mt-2">
+                    <span class="sr-only"> Regular Price </span>
+      
+                    <span class="tracking-wider text-white"> 2017 </span>
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Team Section: Circle Photos with Title -->
+<div class="bg-white dark:text-gray-100 dark:bg-gray-900">
+  <div class="space-y-16 container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
+    <!-- Heading -->
+    <div class="text-center">
+      <div class="text-sm uppercase font-bold tracking-wider mb-1 text-rose-600 dark:text-rose-500">
+        ACTORS
+      </div>
+      <h2 class="text-4xl font-black text-black mb-4 dark:text-white">
+        Most popular actors
+      </h2>
+      <h3 class="text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 mx-auto dark:text-gray-300">
+       Most of them can be recognized by their Sigma roles in movies.
+      </h3>
+    </div>
+    <!-- END Heading -->
+
+    <!-- Team -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-16 text-center">
+      <div>
+        <span class="inline-block rounded-full bg-white shadow-lg p-2 mb-5 dark:bg-gray-700/75 dark:shadow-gray-950">
+          <img src="https://www.independent.co.uk/s3fs-public/thumbnails/image/2013/01/10/18/Ryan-Gosling-getty.jpg?quality=75&width=1200&auto=webp" alt="User Avatar" class="inline-block w-28 h-28 rounded-full">
+        </span>
+        <h4 class="text-xl font-bold mb-0.5">
+          Ryan Gosling
+        </h4>
+      
+      </div>
+      <div>
+        <span class="inline-block rounded-full bg-white shadow-lg p-2 mb-5 dark:bg-gray-700/75 dark:shadow-gray-950">
+          <img src="https://hips.hearstapps.com/hmg-prod/images/Christian-Bale_GettyImages-504405052.jpg" alt="User Avatar" class="inline-block w-28 h-28 rounded-full">
+        </span>
+        <h4 class="text-xl font-bold mb-0.5">
+          Christian Bale
+        </h4>
+    
+      </div>
+      <div>
+        <span class="inline-block rounded-full bg-white shadow-lg p-2 mb-5 dark:bg-gray-700/75 dark:shadow-gray-950">
+          <img src="https://hips.hearstapps.com/hmg-prod/images/jake-gyllenhaal-16242387-1-402.jpg" alt="User Avatar" class="inline-block w-28 h-28 rounded-full">
+        </span>
+        <h4 class="text-xl font-bold mb-0.5">
+          Jake Gyllanhaal
+        </h4>
+      
+      </div>
+      <div>
+        <span class="inline-block rounded-full bg-white shadow-lg p-2 mb-5 dark:bg-gray-700/75 dark:shadow-gray-950">
+          <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1197345888.jpg" alt="User Avatar" class="inline-block w-28 h-28 rounded-full">
+        </span>
+        <h4 class="text-xl font-bold mb-0.5">
+          Leonardo Dicaprio
+        </h4>
+
+      </div>
+      <div>
+        <span class="inline-block rounded-full bg-white shadow-lg p-2 mb-5 dark:bg-gray-700/75 dark:shadow-gray-950">
+          <img src="https://hips.hearstapps.com/hmg-prod/images/brad-pitt-attends-the-premiere-of-20th-century-foxs--square.jpg" alt="User Avatar" class="inline-block w-28 h-28 rounded-full">
+        </span>
+        <h4 class="text-xl font-bold mb-0.5">
+          Brad Pitt
+        </h4>
+      
+      </div>
+      <div>
+        <span class="inline-block rounded-full bg-white shadow-lg p-2 mb-5 dark:bg-gray-700/75 dark:shadow-gray-950">
+          <img src="https://nationaltoday.com/wp-content/uploads/2022/10/456840842-min-1200x834.jpg" alt="User Avatar" class="inline-block w-28 h-28 rounded-full">
+        </span>
+        <h4 class="text-xl font-bold mb-0.5">
+          Mad Mikkelson
+        </h4>
+
+      </div>
+    </div>
+    <!-- END Team -->
+  </div>
+</div>
+<!-- END Team Section: Circle Photos with Title -->
+      
+</body>
+
+</html>

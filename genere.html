@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Genre</title>
+</head>
+<body class="bg-gray-900">
+    <nav class="relative bg-gray-700 rounded-2xl flex flex-wrap justify-between mx-10 my-5 pl-2 pr-2 place-items-center">
+        <div class="font-mono text-3xl text-white text-center pl-2">Σ-Play</div>
+        <input type="checkbox" id="menu-toggle" class="hidden">
+        <label for="menu-toggle" class="menu-icon lg:hidden">
+            <svg class="w-6 h-6 text-white cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </label>
+        <ul class="menu hidden lg:flex justify-end px-20 place-items-center font-mono text-white text-center pl-2">
+            <li>
+                <a class="  text-lg rounded-sm bg-gray-700 px-8 py-3 font-medium cursor-pointer transform hover:text-xl"
+                    href="Dashboard.html">Home</a>
+            </li>
+            <li>
+                <a class="text-lg block rounded-sm bg-gray-700 px-8 py-3 font-medium cursor-pointer hover:text-xl"
+                    href="genere.html">Genre</a>
+            </li>
+            <li>
+              <select class="text-lg block rounded-sm bg-gray-700 px-8 py-3 font-medium cursor-pointer hover:text-xl">
+                <option value="">Country</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Australia">Australia</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Canada">Canada</option>
+                <option value="China">China</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="India">India</option>
+                <option value="Italy">Italy</option>
+                <option value="Japan">Japan</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Russia">Russia</option>
+                <option value="South Korea">South Korea</option>
+                <option value="Spain">Spain</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+              </select>
+              
+            </li>
+            <li>
+                <a class="text-lg block rounded-sm bg-gray-700 px-8 py-3 font-medium cursor-pointer hover:text-xl"
+                    href="Movies.html">Movies</a>
+            </li>
+            <li>
+                <a class="text-lg block rounded-sm bg-gray-700 px-8 py-3 font-medium cursor-pointer hover:text-xl"
+                    href="tv-shows.html">TV Shows</a>
+            </li>
+            <li>
+                <a class="text-lg block rounded-sm bg-gray-700 px-8 py-3 font-medium cursor-pointer hover:text-xl"
+                    href="imdb.html">Top-IMDB</a>
+            </li>
+        </ul>
+    </nav>
+   <!-- Product List Section: Categories Grid -->
+<div class="bg-white dark:text-gray-100 dark:bg-gray-900">
+   
+    <div class="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <a href="javascript:void(0)" class="sm:col-span-2 md:col-span-1 block group relative transition ease-out active:opacity-75 overflow-hidden">
+          <img src="https://images.pexels.com/photos/5435430/pexels-photo-5435430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Product Image" class="transform transition ease-out group-hover:scale-110">
+          <div class="absolute inset-0 bg-black bg-opacity-25 transition ease-out group-hover:bg-opacity-0"></div>
+          <div class="p-4 flex items-center justify-center absolute inset-0">
+            <div class="py-3 px-4 bg-white bg-opacity-95 rounded-3xl text-sm font-semibold uppercase tracking-wide transition ease-out group-hover:text-white group-hover:bg-rose-600 dark:bg-gray-900/90 dark:border-gray-800">
+              Horror
+            </div>
+          </div>
+        </a>
+        <a href="javascript:void(0)" class="block group relative transition ease-out active:opacity-75 overflow-hidden">
+          <img src="https://images.pexels.com/photos/1114897/pexels-photo-1114897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Product Image" class="transform transition ease-out group-hover:scale-110">
+          <div class="absolute inset-0 bg-black bg-opacity-25 transition ease-out group-hover:bg-opacity-0"></div>
+          <div class="p-4 flex items-center justify-center absolute inset-0">
+            <div class="py-3 px-4 bg-white bg-opacity-95 rounded-3xl text-sm font-semibold uppercase tracking-wide transition ease-out group-hover:text-white group-hover:bg-rose-600 dark:bg-gray-900/90 dark:border-gray-800">
+              Mystery
+            </div>
+          </div>
+        </a>
+        <a href="javascript:void(0)" class="block group relative transition ease-out active:opacity-75 overflow-hidden">
+          <img src="https://images.pexels.com/photos/275977/pexels-photo-275977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Product Image" class="transform transition ease-out group-hover:scale-110">
+          <div class="absolute inset-0 bg-black bg-opacity-25 transition ease-out group-hover:bg-opacity-0"></div>
+          <div class="p-4 flex items-center justify-center absolute inset-0">
+            <div class="py-3 px-4 bg-white bg-opacity-95 rounded-3xl text-sm font-semibold uppercase tracking-wide transition ease-out group-hover:text-white group-hover:bg-rose-600 dark:bg-gray-900/90 dark:border-gray-800">
+              Documentary
+            </div>
+          </div>
+        </a>
+        <a href="javascript:void(0)" class="sm:col-span-2 md:col-span-1 block group relative transition ease-out active:opacity-75 overflow-hidden">
+          <img src="https://images.pexels.com/photos/1030794/pexels-photo-1030794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Product Image" class="transform transition ease-out group-hover:scale-110">
+          <div class="absolute inset-0 bg-black bg-opacity-25 transition ease-out group-hover:bg-opacity-0"></div>
+          <div class="p-4 flex items-center justify-center absolute inset-0">
+            <div class="py-3 px-4 bg-white bg-opacity-95 rounded-3xl text-sm font-semibold uppercase tracking-wide transition ease-out group-hover:text-white group-hover:bg-rose-600 dark:bg-gray-900/90 dark:border-gray-800">
+              Action
+            </div>
+          </div>
+        </a>
+        <a href="javascript:void(0)" class="block group relative transition ease-out active:opacity-75 overflow-hidden">
+          <img src="https://images.pexels.com/photos/2736742/pexels-photo-2736742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Product Image" class="transform transition ease-out group-hover:scale-110">
+          <div class="absolute inset-0 bg-black bg-opacity-25 transition ease-out group-hover:bg-opacity-0"></div>
+          <div class="p-4 flex items-center justify-center absolute inset-0">
+            <div class="py-3 px-4 bg-white bg-opacity-95 rounded-3xl text-sm font-semibold uppercase tracking-wide transition ease-out group-hover:text-white group-hover:bg-rose-600 dark:bg-gray-900/90 dark:border-gray-800">
+              Dance
+            </div>
+          </div>
+        </a>
+        <a href="javascript:void(0)" class="block group relative transition ease-out active:opacity-75 overflow-hidden">
+          <img src="https://images.pexels.com/photos/264905/pexels-photo-264905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Product Image" class="transform transition ease-out group-hover:scale-110">
+          <div class="absolute inset-0 bg-black bg-opacity-25 transition ease-out group-hover:bg-opacity-0"></div>
+          <div class="p-4 flex items-center justify-center absolute inset-0">
+            <div class="py-3 px-4 bg-white bg-opacity-95 rounded-3xl text-sm font-semibold uppercase tracking-wide transition ease-out group-hover:text-white group-hover:bg-rose-600 dark:bg-gray-900/90 dark:border-gray-800">
+              Cartoon
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- END Product List Section: Categories Grid --> 
+</body>
+</html>
